@@ -14,7 +14,7 @@
             <button><img src="images/search.png"></button>
         </div>
         <div class="error">
-            <p>Enter a valid city name :</p>
+            <p>Valid city name required :</p>
         </div>
         <div class="weather">
             <img src="images/rain.png" class="weather-icon" >
@@ -54,7 +54,8 @@
             if(response.status == 404){
                 document.querySelector(".error").style.display = "block";
                 document.querySelector(".weather").style.display = "none";
-            }else{
+            }
+            else{
                 var data = await response.json();
     
                 document.querySelector(".city").innerHTML = data.name;
