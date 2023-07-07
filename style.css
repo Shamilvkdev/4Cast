@@ -51,7 +51,7 @@ body{
 }
 
 .search button img{
-    width: 22px;
+    width: 23px;
 }
 
 .weather{
@@ -102,6 +102,6 @@ body{
     text-align: left;
     margin-left: 9px;
     margin-top: 7px;
-    font-size: 15px;
+    font-size: 17px;
     display: none;
 }
